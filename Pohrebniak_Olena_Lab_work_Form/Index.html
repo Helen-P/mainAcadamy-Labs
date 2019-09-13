@@ -14,24 +14,39 @@
 <body>
     <div class="cover">
         <div class="header">
-            <Label>Log in</Label>
-            <div class="social">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-google-plus-g"></i>
+            <div class="header_content">
+                <Label>Log in</Label>
+                <div class="social">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                </div>
             </div>
         </div>
         <div class="form">
-            <div class="email">
-
-            </div>
-            <div class="password"></div>
+            <form id="form">
+                <div class="email">
+                    <input form="form" required placeholder="Your email" tabindex="Pass" id="Email" type="email">
+                    <label for="Email">Your email</label>
+                </div>
+                <div class="password">
+                    <input form="form" required id="Pass" type="password" placeholder="Your password">
+                    <label for="Pass">Your password</label>
+                </div>
+            </form>
+            <a class="a_forgot" href="#">Forgot <span>Password?</span></a>
         </div>
         <div class="buttons">
-
+            <div class="log">
+                <input class="Log_submit" type="submit" value="Log in" form="form">
+            </div>
+            <div class="sign">
+                <a class="a_sign" href="#">Don`t have an account? <span>Sign up</span></a>
+            </div>
         </div>
     </div>
 
 </body>
+
 
 </html>
