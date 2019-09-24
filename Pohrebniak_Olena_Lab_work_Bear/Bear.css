@@ -1,0 +1,143 @@
+.main {
+	background: linear-gradient(90deg, rgb(177, 223, 211), rgb(239, 255, 251));
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.bear {
+	width: 440px;
+	height: 440px;
+	border-radius: 50%;
+	background: linear-gradient(270deg, rgb(255, 201, 176), rgb(255, 229, 218));
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+}
+
+.bear,
+.b_head {
+	position: relative;
+	transform: translate(-50%, -50%);
+}
+
+.b_head {
+	top: 52%;
+	left: 50%;
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+	background: linear-gradient(to right, rgb(255, 255, 255) 50%, rgb(245, 245, 245) 50%);
+	position: absolute;
+}
+
+.ear{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 11%;
+	margin: 30px;
+	background-color: rgb(255, 78, 166);
+	border:solid 17px white;
+	border-radius: 50%;
+}
+.ear.right{
+left: 9%;
+}
+.ear.left{
+right: 9%;
+}
+
+.eye {
+	width: 25px;
+	height: 25px;
+	background-color: #252526;
+	border-radius: 50%;
+	margin-top: 6em;
+}
+
+.eye.right {
+	float: left;
+	margin-left: 5em;
+}
+.eye.left {
+	float: right;
+	margin-right: 5em;
+}
+
+.nouse {
+	width: 65px;
+	height: 50px;
+	background: linear-gradient(to right, rgb(236, 236, 236) 50%, rgb(211, 211, 211) 50%);
+	border-radius: 50%;
+	margin: 50% auto;
+	position: relative;
+}
+
+.small_nouse {
+	width: 29px;
+	height: 29px;
+	background-color: #252526;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -80%);
+}
+.n_col {
+	background-color: #252526;
+	width: 40px;
+	height: 8px;
+	border-radius: 3px;
+	transform: translate(-50%, -50%);
+}
+.col_nouse{
+	display: inline;
+}
+.n_col.right{
+	transform: rotate(-230deg);
+}
+.n_col.left{
+	transform: rotate(230deg);}
+
+.col {
+	position: fixed;
+	top: 20%;
+	left: 20%;
+	bottom: 20%;
+	right: 20%;
+	transform: rotate(107deg);
+	z-index: 0;
+}
+
+
+.colm {
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px;
+	margin: 80px auto;
+}
+.a {
+	width: 800px;
+	height: 17px;
+}
+
+.b {
+	width: 800px;
+	height: 8px;
+}
+.c {
+	width: 750px;
+	height: 15px;
+}
+
+.d {
+	width: 650px;
+	height: 9px;
+}
+.f {
+	width: 800px;
+	height: 17px;
+}
